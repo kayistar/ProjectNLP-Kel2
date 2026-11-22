@@ -1,0 +1,47 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment variables & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Raw dataset & un-anonymized data (PII / large files - jangan di-push ke Git)
+Dataset/
+warisai_dataset/raw/
+warisai_dataset/processed/text/
+*.pdf
+
+# Vector indices, embeddings, model weights & LoRA adapters
+*.faiss
+*.index
+*.bin
+*.pt
+*.pth
+*.safetensors
+models/
+adapters/
+checkpoints/
+.cache/
+
+# Logs, run outputs & traces
+logs/
+runs/
+*.log
+
+# OS & Editor temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+.vscode/
+.idea/
