@@ -17,8 +17,10 @@ env/
 # Raw dataset & un-anonymized data (PII / large files - jangan di-push ke Git)
 Dataset/
 warisai_dataset/raw/
-warisai_dataset/processed/text/
+warisai_dataset/processed/
+warisai_dataset/indexes/
 *.pdf
+*.zip
 
 # Vector indices, embeddings, model weights & LoRA adapters
 *.faiss

@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "counts": {
+    "total": 100,
+    "train": 30,
+    "dev": 30,
+    "test_locked": 40,
+    "red_team": 20
+  },
+  "sha256": {
+    "queries_100.jsonl": "f29332393eedab6e9ae33c1325e8b35486d26934f111d12c8f0495100ddb4635",
+    "train.jsonl": "05fcbfd5e84aa429da7284894e3b42e7c4d7278e11bd0fbe1ed43997e21b4e9c",
+    "dev.jsonl": "8e361311e05d57cc3146640d77ca84f79414f798e1fa965f5e21899caa7ce84c",
+    "test_locked.jsonl": "c402332e6037a97c0c1ac329e1e70db9e4451893aa7c08377895527366a959a2",
+    "red_team_20.jsonl": "c31e693e9f8e6cc6b9889f6a20111c6e1fd83e18c5ae08829bb7c21fab43fd54"
+  }
+}
